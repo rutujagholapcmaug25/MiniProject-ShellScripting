@@ -1,0 +1,333 @@
+rutuja@Rutuja:~/bash_learning_project$ ls
+Shell-Starter-Kit  data  learnbash.sh  logs
+rutuja@Rutuja:~/bash_learning_project$ ls Shell-Starter-Kit
+contacts.sh  data  dir_management.sh  learnbash.sh  logs  modules  rutuja.txt  test.txt  testing.txt
+rutuja@Rutuja:~/bash_learning_project$ cd Shell-Starter-Kit
+rutuja@Rutuja:~/bash_learning_project/Shell-Starter-Kit$ ls
+contacts.sh  data  dir_management.sh  learnbash.sh  logs  modules  rutuja.txt  test.txt  testing.txt
+rutuja@Rutuja:~/bash_learning_project/Shell-Starter-Kit$ ls data
+contacts.txt
+rutuja@Rutuja:~/bash_learning_project/Shell-Starter-Kit$ ls logs
+actions.log
+rutuja@Rutuja:~/bash_learning_project/Shell-Starter-Kit$ ls modules
+contacts.sh  copy_move.sh  dir_management.sh  file_management.sh  logging.sh  permissions.sh  search.sh  sysinfo.sh
+rutuja@Rutuja:~/bash_learning_project/Shell-Starter-Kit$ ./learnbash.sh
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 1
+---- File Management ----
+1. Create File
+2. Delete File
+3. View File Content
+Choose: 1
+Enter file name: hello.txt
+File hello.txt created.
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 1
+---- File Management ----
+1. Create File
+2. Delete File
+3. View File Content
+Choose: 3
+Enter file name: hello.txt
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 2
+---- Directory Management ----
+1. Create Directory
+2. Delete Directory
+3. List Directory Contents
+Choose: 1
+Enter directory name: hello_test
+Directory hello_test created.
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 2
+---- Directory Management ----
+1. Create Directory
+2. Delete Directory
+3. List Directory Contents
+Choose: 3
+Enter directory name: hello_test
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 3
+---- Copy & Move ----
+1. Copy File
+2. Move File
+Choose: 1
+Enter source file: hello.txt
+Enter destination: hello_copy.txt
+File copied.
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 3
+---- Copy & Move ----
+1. Copy File
+2. Move File
+Choose: 2
+Enter source file: hello.txt
+Enter destination: hello_copy.txt
+File moved.
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 4
+---- File Permissions ----
+1. View Permissions
+2. Change Permissions
+Choose: 1
+Enter file name: hello.txt
+ls: cannot access 'hello.txt': No such file or directory
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 4
+---- File Permissions ----
+1. View Permissions
+2. Change Permissions
+Choose: 4
+Invalid choice!
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 4
+---- File Permissions ----
+1. View Permissions
+2. Change Permissions
+Choose: 1
+Enter file name: test.txt
+-rw-r--r-- 1 rutuja rutuja 0 Aug 31 05:51 test.txt
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 4
+---- File Permissions ----
+1. View Permissions
+2. Change Permissions
+Choose: 2
+Enter file name: test.txt
+Enter permission code (e.g. 755): 777
+Permissions updated.
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 4
+---- File Permissions ----
+1. View Permissions
+2. Change Permissions
+Choose: 1
+Enter file name: test.txt
+-rwxrwxrwx 1 rutuja rutuja 0 Aug 31 05:51 test.txt
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 5
+---- Search ----
+Enter filename to search: test.txt
+File found at: ./test.txt
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 6
+---- System Information ----
+Linux Rutuja 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.9G     0  1.9G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            1.9G  4.0K  1.9G   1% /mnt/wsl
+drivers         238G  139G  100G  59% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.9G  954G   1% /
+none            1.9G   80K  1.9G   1% /mnt/wslg
+none            1.9G     0  1.9G   0% /usr/lib/wsl/lib
+rootfs          1.9G  2.7M  1.9G   1% /init
+none            1.9G  512K  1.9G   1% /run
+none            1.9G     0  1.9G   0% /run/lock
+none            1.9G     0  1.9G   0% /run/shm
+none            1.9G   76K  1.9G   1% /mnt/wslg/versions.txt
+none            1.9G   76K  1.9G   1% /mnt/wslg/doc
+C:\             238G  139G  100G  59% /mnt/c
+D:\             489G   23G  466G   5% /mnt/d
+E:\             444G   18G  426G   4% /mnt/e
+tmpfs           1.9G   16K  1.9G   1% /run/user/1000
+               total        used        free      shared  buff/cache   available
+Mem:            3784         384        3329           3         143        3399
+Swap:           1024           0        1024
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 7
+---- Contact Database ----
+1. Add Contact
+2. View Contacts
+Choose: 1
+Enter Name: Anuja Gholap
+Enter Phone: 5468799833
+Contact saved.
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 7
+---- Contact Database ----
+1. Add Contact
+2. View Contacts
+Choose: 2
+Rutuja - 888888888
+Rutuja - 88888888
+Anuja Gholap - 5468799833
+==============================
+       Shell Starter Kit
+==============================
+1. File Management
+2. Directory Management
+3. Copy & Move Files
+4. Permissions & Ownership
+5. File Searching
+6. System Information
+7. Contact Database
+8. Exit
+==============================
+Choose an option: 8
+Goodbye!
+rutuja@Rutuja:~/bash_learning_project/Shell-Starter-Kit$
